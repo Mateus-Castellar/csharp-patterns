@@ -17,4 +17,4 @@ instancia1.Log($"Mensagem de {nameof(instancia1)}");
 instancia1.Log($"Mensagem de {nameof(instancia2)}");
 Logger.Instance.Log($"Mensagem de {nameof(Logger.Instance)}");
 
-Console.ReadLine();
+Console.ReadKey();
